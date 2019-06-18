@@ -1,13 +1,18 @@
 package com.zhu.jenkinsz;
 
+import java.util.Random;
+
 /**
- * Hello world!
+ * random number!
  *
  */
 public class App 
 {
+	
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	Random random=new Random();
+    	int number=random.nextInt(20);
+    	System.out.println("number is "+number);
     }
 }
